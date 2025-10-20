@@ -1,0 +1,124 @@
+
+body {
+    display: grid;
+    grid-template-rows: 200px 2fr 60px;
+    gap: 10px;
+    background-color: rgb(210, 207, 203);
+}
+header {
+    background-color: rgb(225, 222, 227);
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid darkblue;
+    justify-content:center;
+    border-radius: 10px;
+}
+h1{
+    grid-column: 1/2;
+    justify-content: center;
+    margin: 20%;
+  font-size: x-large;
+  color: rgb(240, 14, 191);
+
+}
+#chaimae{
+    font-size: 30px;
+    color: rgb(0, 0, 11);
+    text-align: center;
+}
+h2{
+    color: darkblue;
+    justify-self: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+img{
+    grid-column: 2/3;
+    justify-self: end;
+    width: 100%;
+    border-radius: 50%;
+    width: 180px;
+    margin: 9px;
+    border: solid darkblue;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    background-color: rgb(225, 222, 227);
+    border: solid darkblue;
+    border-radius: 10px;
+    gap: 10px;
+}
+.ex1{
+    grid-row: 1/2;
+    align-items: center;
+    font-size: large;
+}
+.ex2{
+    grid-row: 2/3;
+    align-items: center;
+    font-size: large;
+}
+.ex3{
+    grid-row: 3/4;
+    align-items: center;
+    font-size: large;
+}
+.ex4{
+    grid-row: 4/5;
+    align-items: center;
+    font-size: large;
+}
+ul{
+    justify-self: center;
+    align-self: center;
+    list-style: none;
+}
+ ul li{
+    background-color: snow;
+    margin: 10px;
+    padding: 5px;
+}
+table{
+
+justify-self: center;
+
+width: 80%;
+margin: 20px;
+padding: 10px;
+}
+
+table th  {
+font-size: x-large;
+ font-family: Arial, Helvetica, sans-serif ;
+}
+table td{
+    
+    text-align: center;
+}
+ol{
+    justify-self: center;
+
+    margin: 20px;
+
+}   
+ol li {
+    font-size: x-large;
+}
+
+
+footer{
+    background-color: rgb(225, 222, 227);
+    align-items: center;
+    font-size: large;
+    border: solid darkblue;
+    border-radius: 10px;
+    
+}
+
+footer p{
+    justify-self: center;
+    color: darkblue;
+    margin: 10px;
+}
